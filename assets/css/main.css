@@ -1699,4 +1699,26 @@ section {
 }
 
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.whatsapp-float:hover {
+  background-color: #20b954;
+}
+
 
